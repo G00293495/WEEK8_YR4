@@ -2,9 +2,11 @@ name: Java CI with Maven
 
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "ci.yml" ]
   pull_request:
-    branches: [ "master" ]
+    branches: [ "ci.yml" ]
+
+
 
 permissions:
   contents: write
